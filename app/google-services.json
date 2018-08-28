@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "26596640191",
+    "firebase_url": "https://photoblog-3ffcf.firebaseio.com",
+    "project_id": "photoblog-3ffcf",
+    "storage_bucket": "photoblog-3ffcf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:26596640191:android:85a53b43e2e914fc",
+        "android_client_info": {
+          "package_name": "okechukwu.nwagba.ng.com.photoblog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "26596640191-5jvf8527dujgj10383ev6i9oo3ca8edj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "okechukwu.nwagba.ng.com.photoblog",
+            "certificate_hash": "9b5499de8409841f8953e2f51a661b7bb406c432"
+          }
+        },
+        {
+          "client_id": "26596640191-k31lm4jgovokp2knsec594v3cp0p4sep.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnT_g-u12ZD8EHIeqLZFL5nm2O8X7Oa40"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "26596640191-k31lm4jgovokp2knsec594v3cp0p4sep.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
