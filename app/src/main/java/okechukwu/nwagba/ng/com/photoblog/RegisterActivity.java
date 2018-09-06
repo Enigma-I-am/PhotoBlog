@@ -100,7 +100,7 @@ public class RegisterActivity extends AppCompatActivity {
     }
 
     private void startMainActivity() {
-        Intent i = new Intent(RegisterActivity.this , MainActivity.class);
+        Intent i = new Intent(RegisterActivity.this , SetupActivity.class);
         startActivity(i);
         finish();
     }

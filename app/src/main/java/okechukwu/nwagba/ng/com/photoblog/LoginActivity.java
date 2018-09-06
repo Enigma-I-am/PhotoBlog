@@ -56,16 +56,21 @@ public class LoginActivity extends AppCompatActivity {
             public void onClick(View view) {
 
 
-
+// Get strings in email and password edittexts
                 String email = EmailET.getText().toString();
                 String password = PasswordDT.getText().toString();
 
-                if (!TextUtils.isEmpty(email) && !TextUtils.isEmpty(password)){
+
+//              If the email and password edittexts are not empty it performs task in code block
+                if (!TextUtils.isEmpty(email) &&    !TextUtils.isEmpty(password)){
+
 
                     progressBar.setVisibility(View.VISIBLE);
+//                  the Auth object has a method to signin with email and password where you pass in the values from edittexts
                     mAuth.signInWithEmailAndPassword(email,password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                         @Override
                         public void onComplete(@NonNull Task<AuthResult> task) {
+//                          When the task is complete if it is successful go to the main activity else make a toast showing the error
                             if (task.isSuccessful()) {
                                 sendtoMainActivity();
                             }else{
