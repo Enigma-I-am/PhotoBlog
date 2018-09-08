@@ -54,6 +54,7 @@ public class MainActivity extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
         fbfs = FirebaseFirestore.getInstance();
 
+        if (mAuth.getCurrentUser()!=null){
         fab = findViewById(R.id.fab);
 
         fab.setOnClickListener(new View.OnClickListener() {
@@ -108,7 +109,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-
+        }
 
 
     }

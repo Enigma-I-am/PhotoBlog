@@ -33,7 +33,7 @@
         android:adjustViewBounds="true"
         android:background="@drawable/border_drawable"
         android:cropToPadding="true"
-        android:scaleType="fitCenter"
+        android:scaleType="centerCrop"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/post_progress"

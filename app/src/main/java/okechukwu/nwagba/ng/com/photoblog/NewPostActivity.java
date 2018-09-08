@@ -186,9 +186,9 @@ public class NewPostActivity extends AppCompatActivity {
                                          Uri DownloadUri = task.getResult();
 
                                          Map<String,Object> Userpost = new HashMap<>();
-                                         Userpost.put("ImageUrl",DownloadUri.toString());
-                                         Userpost.put("Description",blogContent);
-                                         Userpost.put("user", CurrentUser_id);
+                                         Userpost.put("imageUrl",DownloadUri.toString());
+                                         Userpost.put("description",blogContent);
+                                         Userpost.put("user_id", CurrentUser_id);
                                          Userpost.put("time",FieldValue.serverTimestamp());
 
                                          firebaseFirestore.collection("Posts").add(Userpost).addOnCompleteListener(new OnCompleteListener<DocumentReference>() {
